@@ -2,6 +2,8 @@
 
 ### Introduction
 
+This is the final project for ME331 (Robot Modeling and Control).
+
 In this project, we developed a jumping controller for CMU GOAT robotic leg. With our controller, the robot can jump in all directions at desired height and direction in the simulation (when orientation is constrained).
 
 ![picture 1](images/GOAT.png)  
