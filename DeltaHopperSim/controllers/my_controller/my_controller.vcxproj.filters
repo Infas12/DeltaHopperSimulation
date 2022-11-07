@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="my_controller.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Accelerometer.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Brake.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Camera.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Compass.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Connector.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Device.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\DifferentialWheels.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Display.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\DistanceSensor.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Emitter.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Field.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\GPS.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Gyro.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\InertialUnit.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Joystick.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Keyboard.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\LED.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Lidar.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\LightSensor.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Motion.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Motor.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Mouse.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Node.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Pen.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\PositionSensor.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Radar.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\RangeFinder.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Receiver.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Robot.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Skin.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Speaker.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Supervisor.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\TouchSensor.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Testbot.cpp" />
+    <ClCompile Include="util\Pid.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleInv.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{ea93bdc1-a3a8-4775-8a5f-754ceec35c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{0296267d-09e0-412c-8641-86111ce0e4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matlab">
+      <UniqueIdentifier>{801a3ade-6be8-4bf1-a265-978de8dfa773}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\Tools\Webots\src\controller\cpp\Makefile">
+      <Filter>Controllers</Filter>
+    </None>
+    <None Include="matlab\DeltaFK.ctf">
+      <Filter>matlab</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Testbot.h" />
+    <ClInclude Include="util\vec3.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="matlab\DeltaFK.h">
+      <Filter>matlab</Filter>
+    </ClInclude>
+    <ClInclude Include="util\Pid.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleInv.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="matlab\DeltaFK.lib">
+      <Filter>matlab</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
