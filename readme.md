@@ -10,7 +10,7 @@ In this project, we developed a jumping controller for CMU GOAT robotic leg. Wit
 
 - Webots 2020b
 - Visual Studio 2019
-- Matalab 2020a or Matlab Runtime
+- Matlab 2020a or Matlab Runtime
 
 ### How to use
 
@@ -24,9 +24,9 @@ Now you can start the simulation in `DeltaHopperSim\worlds`. Open the scene tree
 
 **Forward Kinematics**
 
-The forward kinematics and Jacobian is calculated with Matlab and then compiled into a C++ dynamic link library. The matlab code can be found in `FowardKinematicsMatlab`. 
+The forward kinematics and Jacobian are calculated with Matlab and then compiled into a C++ dynamic link library. The MatLab code can be found in `FowardKinematicsMatlab`. 
 
 ![picture 1](images/ForwardKinematics.png)  
 
 ### Reference
-Kalouche, S. . (2017). GOAT: A legged robot with 3D agility and virtual compliance. 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE
+Kalouche, S. . (2017). GOAT: A legged robot with 3D agility and virtual compliance. 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE
